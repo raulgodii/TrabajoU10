@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FOOTER */
+footer{
+    font-family: Manrope;
+    background-color: #21295c;
+    display: flex;
+    flex-flow: row no-wrap;
+    color: white;
+    justify-content: space-between;
+}
+
+footer h3{
+    margin: 20px;
+}

@@ -13,8 +13,7 @@ header{
     justify-content:space-around;
     align-items: center;
     font-family: Manrope;
-    background-color: #111111;
-    position: fixed;
+    background-color: #21295c;
     width: 100%;
 }
 
@@ -38,13 +37,13 @@ header nav a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    background-color: rgb(197, 26, 38);
+    background-color: #1c7293;
     padding: 10px 10px;
     display: block;
 }
 
 header nav ul ul a{
-    background-color: #1e1e1e;
+    background-color: #065a82;
     color: white;
 }
 
@@ -85,9 +84,9 @@ header nav ul li:hover>ul{
 }
 
 header nav ul li:hover a{
-    background-color: #1e1e1e;
+    background-color: #065a82;
 }
 
 header nav ul ul li:hover>a{
-    background-color: #555555;
+    background-color: #1c7293;
 }
