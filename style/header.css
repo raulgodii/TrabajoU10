@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items: center;
+    font-family: Manrope;
+    background-color: #111111;
+    position: fixed;
+    width: 100%;
+}
+
+header>h1{
+    color: white;
+    margin: 30px;
+}
+
+header>nav{
+    margin: 30px;
+}
+
+header>nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(197, 26, 38);
+    padding: 10px 10px;
+    display: block;
+}
+
+header nav ul ul a{
+    background-color: #1e1e1e;
+    color: white;
+}
+
+header nav li{
+    border-collapse: collapse;
+}
+
+header nav ul ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+header nav ul li{
+    width: 170px;
+    text-align: center;
+}
+
+header nav ul li{
+    position: relative;
+}
+
+header nav ul ul{
+    position: absolute;
+}
+
+header nav ul ul ul{
+    top: 0;
+    left: 170px;
+}
+
+header nav ul ul{
+    display: none;
+}
+
+header nav ul li:hover>ul{
+    display: flex;
+}
+
+header nav ul li:hover a{
+    background-color: #1e1e1e;
+}
+
+header nav ul ul li:hover>a{
+    background-color: #555555;
+}
