@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* OTHERS */
+main{
+    font-family: Manrope;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='5000' preserveAspectRatio='none' viewBox='0 0 1440 5000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1088%26quot%3b)' fill='none'%3e%3crect width='1440' height='5000' x='0' y='0' fill='url(%23SvgjsLinearGradient1089)'%3e%3c/rect%3e%3cpath d='M1440 0L1280.1 0L1440 1403.88z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1280.1 0L1440 1403.88L1440 2886.25L1090.46 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M1090.46 0L1440 2886.25L1440 3650.65L573.36 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M573.36 0L1440 3650.65L1440 3737.86L369.54 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 5000L642.39 5000L0 2572.56z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 2572.56L642.39 5000L654.91 5000L0 1639.11z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 1639.1099999999997L654.91 5000L1040.44 5000L0 1489.3799999999997z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 1489.3799999999997L1040.44 5000L1312.48 5000L0 542.1199999999997z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1088'%3e%3crect width='1440' height='5000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1089'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+main div{
+    background-color: #1c7293;
+    width: 80%;
+    padding: 5%;
+}
+
+main ul, main ol{
+    list-style:disc;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: #9eb3c2;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+main div>p{
+    margin-bottom: 40px;
+    color: #9eb3c2;
+}
+
