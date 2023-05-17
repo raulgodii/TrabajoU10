@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/other.css">
+
+</head>
+<body>
+    <header>
+        <h1>Sistemas de gestión empresarial</h1>
+        <nav>
+            <ul>
+                <li><a href="#">SGI</a>
+                    <ul>
+                        <li><a href="erp.html">ERP</a>
+                            <ul>
+                                <li><a href="erp.html">¿Qué son?</a></li>
+                                <li><a href="erp.html#ERPC">Caracteristicas</a></li>
+                                <li><a href="erp.html#ERPD">Diferencias con Suite</a></li>
+                                <li><a href="erp.html#ERPT">Tipos</a></li>
+                                <li><a href="erp.html#ERPB">Beneficios</a></li>
+                                <li><a href="erp.html#ERPF">Fabricantes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="crm.html">CRM</a>
+                            <ul>
+                                <li><a href="crm.html#CRMC">Caracteristicas</a></li>
+                                <li><a href="crm.html#CRMB">Beneficios</a></li>
+                                <li><a href="crm.html#CRMM">Más populares</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="bi.html">BI</a>
+                            <ul>
+                                <li><a href="bi.html#BIE">ETL</a></li>
+                                <li><a href="bi.html#BID">Data y WareHouse</a></li>
+                                <li><a href="bi.html#BIS">Más populares</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="redifusion.html">RSS</a>
+                    <ul>
+                        <li><a href="redifusion.html#RSSR">Formato RSS</a></li>
+                        <li><a href="redifusion.html#RSSA">Formato Atom</a></li>
+                        <li><a href="redifusion.html#RSSC">Canales de interes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h2>Sistemas de redifusión o sindicación de contenidos: Uso y futuro</h2>
+            <p>Un sistema de redifusión o sindicación de contenidos (RSS) es una tecnología que permite la distribución automática de contenido de un sitio web a otros sitios web o a usuarios individuales. Los usuarios pueden suscribirse a un feed RSS y recibir actualizaciones en tiempo real sobre el contenido de un sitio web en su lector de feeds.</p>
+
+            <h3 id="RSSR">Formato RSS. Ejemplo de creación de un canal RSS</h3>
+            <p>El formato RSS (Really Simple Syndication o Sindicación Realmente Simple) es un formato XML que permite la distribución de contenido a través de un feed RSS. Los feeds RSS pueden incluir texto, imágenes, audio y vídeo, y se actualizan automáticamente cuando se publica nuevo contenido en el sitio web.</p>
+
+            <h4>Ejemplo de creación de un canal RSS</h4>
+            <p>Para crear un canal RSS, es necesario tener conocimientos de programación y crear un archivo XML con el contenido del feed. A continuación, se muestra un ejemplo de un archivo XML de un canal RSS:</p>
+             <pre>
+                
+                    &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+                    &lt;rss version="2.0"&gt;
+                    &lt;channel&gt;
+                    &lt;title&gt;Ejemplo de canal RSS&lt;/title&gt;
+                    &lt;link&gt;http://www.ejemplo.com/rss&lt;/link&gt;
+                    &lt;description&gt;Este es un ejemplo de canal RSS&lt;/description&gt;
+                    &lt;language&gt;es-es&lt;/language&gt;
+                    &lt;item&gt;
+                        &lt;title&gt;Primer artículo&lt;/title&gt;
+                        &lt;link&gt;http://www.ejemplo.com/articulo1&lt;/link&gt;
+                        &lt;description&gt;Este es el primer artículo de ejemplo&lt;/description>
+                        &lt;pubDate&gt;Mon, 08 May 2023 12:00:00 GMT&lt;/pubDate&gt;
+                        &lt;/item&gt;
+                    &lt;item&gt;
+                        &lt;title&gt;Segundo artículo&lt;/title&gt;
+                        &lt;link&gt;http://www.ejemplo.com/articulo2&lt;/link&gt;
+                        &lt;description&gt;Este es el segundo artículo de ejemplo&lt;/description&gt;
+                        &lt;pubDate&gt;Tue, 09 May 2023 12:00:00 GMT&lt;/pubDate&gt;
+                        &lt;/item&gt;
+                    &lt;/channel&gt;
+                    &lt;/rss&gt;
+               
+            </pre>
+            <h3 id="RSSS">Formato Atom</h3>
+            <p>El formato Atom es otro formato XML para la sindicación de contenidos que se utiliza como alternativa al formato RSS. Al igual que el RSS, el Atom permite la distribución de contenido a través de un feed y se actualiza automáticamente cuando se publica nuevo contenido en el sitio web.</p>
+
+            <h3 id="RSSC">Canales RSS y Atom de interés</h3>
+            <p>Los canales RSS y Atom pueden ser útiles para seguir el contenido de sitios web que te interesen sin tener que visitarlos regularmente. Algunos ejemplos de canales RSS y Atom de interés podrían ser:</p>
+            <ul>
+                <li>El feed RSS de noticias de la BBC (<a href="https://feeds.bbci.co.uk/news/rss.xml">https://feeds.bbci.co.uk/news/rss.xml</a>)</li>
+                <li>El feed Atom de noticias de The New York Times (<a href="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml">https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml</a>)</li>
+                <li>El feed RSS de noticias de tecnología de TechCrunch (<a href="https://techcrunch.com/feed/">https://techcrunch.com/feed/</a>)</li>
+                <li>El feed Atom de publicaciones científicas de Nature (<a href="https://www.nature.com/subjects/nature-journals.atom">https://www.nature.com/subjects/nature-journals.atom</a>)</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Sistemas de gestión empresarial</h3>
+        <h3>&copy; Made By Raúl González & Miguel Hurtado</h3>
+    </footer>
+</body>
+</html>
